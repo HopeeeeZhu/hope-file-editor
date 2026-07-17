@@ -1,8 +1,8 @@
 # Hope 编辑器
 
-一款轻量、免费、无需登录的 macOS Markdown / 文本编辑器。适合阅读和修改 AI 生成的 `.md` 文档、会议纪要、学习笔记与普通文本文件。
+一款轻量、免费、无需登录的 macOS 本地文档阅读与编辑工具。短文可直接阅读或编辑，长文可切换为左右双页的书本模式。
 
-[下载最新版 v0.4.2](https://github.com/HopeeeeZhu/hope-file-editor/releases/latest)
+[下载最新版 v0.6.3](https://github.com/HopeeeeZhu/hope-file-editor/releases/latest)
 
 > 当前安装包适用于 Apple 芯片 Mac（M1、M2、M3、M4 等），需要 macOS 10.13 或更高版本。暂不提供 Intel Mac 版本。
 
@@ -11,7 +11,7 @@
 ## 一分钟安装
 
 1. 打开上方“下载最新版”页面。
-2. 在页面底部的 **Assets** 中下载 `hope-editor-v0.4.2-apple-silicon.dmg`。
+2. 在页面底部的 **Assets** 中下载 `hope-editor-v0.6.3-larger-book-apple-silicon.dmg`。
 3. 双击下载好的 `.dmg` 文件。
 4. 把“hope的编辑器”拖入“应用程序（Applications）”文件夹。
 5. 安装完成后，可以推出安装盘并删除 `.dmg` 文件。
@@ -57,6 +57,14 @@ xattr -cr '/Applications/hope的编辑器.app'
 - 点击“关闭编辑”：隐藏源文，进入更清爽的阅读模式。
 - 编辑模式下可拖动分隔线，调整文件目录、源文和预览区域的宽度。
 
+### 长文双页阅读
+
+- 点击右上角“长文”，文档会自动排入摊开的左右两页。
+- 切换长文时，左侧文件目录和右侧文章大纲会自动收起，尽量展示更多内容。
+- Mac 触控板双指左滑向后翻页，双指右滑向前翻页。
+- 也可使用页面边缘、左右方向键、Page Up / Page Down 和空格键翻页。
+- 宽屏下双页会尽量铺满阅读区域；窗口变窄时会自动切换为单页。
+
 ### 搜索内容
 
 - 搜索当前文档：按 `⌘F`，或使用右上角搜索框。
@@ -73,7 +81,7 @@ xattr -cr '/Applications/hope的编辑器.app'
 
 - “缩小 / 放大”：调整编辑区、预览区和目录的字号，应用会记住设置。
 - “夜间 / 日间”：切换明暗主题，应用会记住设置。
-- 右侧文章目录会根据标题自动生成，点击标题即可跳到对应章节。
+- 右侧文章大纲默认隐藏，需要时点击顶部“大纲”展开，再点击标题即可跳到对应章节。
 
 ## 常用快捷键
 
@@ -88,7 +96,7 @@ xattr -cr '/Applications/hope的编辑器.app'
 
 ## 支持的内容
 
-可直接打开：`md`、`markdown`、`mdown`、`mkd`、`mkdn`、`txt`。
+可直接打开 Markdown、TXT、PDF 和 HTML 文档。Markdown 与 TXT 可编辑、保存；PDF 使用原页面双页阅读；HTML 经过安全过滤后只读展示。
 
 预览支持常用 Markdown 内容，包括标题、列表、表格、引用、链接、图片、任务清单、脚注、代码高亮、KaTeX 数学公式和 Mermaid 图表。
 
@@ -112,17 +120,17 @@ xattr -cr '/Applications/hope的编辑器.app'
 
 ## 安装包校验（可选）
 
-v0.4.2 Apple 芯片版 SHA-256：
+v0.6.3 Apple 芯片版 SHA-256：
 
 ```text
-ccf7cdb6d272f6dd6759116a7c9e4ff4d62042c450c5bd4c395c2086547ce9f6
+eefa4e3a21f7b0a02fd36cccf524bfc3e54e7aa5c5add6e1e96d6c4b776743f7
 ```
 
 如果只是正常下载安装，可以忽略这一节。
 
 ## 版本信息
 
-- 当前分享版本：v0.4.2
+- 当前分享版本：v0.6.3
 - 安装包大小：约 8.5 MB
 - 适用系统：macOS 10.13 及以上
 - 适用芯片：Apple Silicon（arm64）
