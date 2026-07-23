@@ -1,6 +1,17 @@
 # Hope 编辑器
 
-一款轻量、免费、无需登录的 macOS 本地文档阅读与编辑工具。短文可直接阅读或编辑，长文可切换为左右双页的书本模式。
+**中文** · [English](README_EN.md)
+
+## 一句话看懂
+
+在 Mac 上直接打开、编辑和阅读 Markdown、TXT、PDF、HTML；长文还能像看书一样左右翻页。
+
+## 适合这些时候
+
+- 想找一个不用登录、文件不上传云端的本地文档工具。
+- 经常阅读 AI 生成的 Markdown、HTML 汇报或长篇笔记。
+- 一边写 Markdown，一边实时看排版效果。
+- 想把 PDF 或长文切成左右双页，安静地读完。
 
 [下载最新版 v0.6.3](https://github.com/HopeeeeZhu/hope-file-editor/releases/latest)
 
